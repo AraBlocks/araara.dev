@@ -1,75 +1,17 @@
-# Nuxt Minimal Starter
+# ara.team
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Playground website [araara.dev](https://araara.dev/) hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
 
-## Setup
+Notes
 
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
+https://developers.cloudflare.com/pages/get-started/c3/
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+$ yarn create cloudflare (with yarn 1 installed globally)
+araara-dev, sets the local directory and pages project name in the dashboard; use hyphen, not space
+Framework Starter, category
+Nuxt, framework
+y, yes to install nuxi@3; didn't get asked the second time through these steps
+no, don't use git for version control; going to drag created files into this existing repository
+yes, deploy to cloudflare; add domain after that in the dashboard
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
